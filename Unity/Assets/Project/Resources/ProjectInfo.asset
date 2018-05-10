@@ -11,8 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47add2652ef74c8fa94ceffdd2ae823, type: 3}
   m_Name: ProjectInfo
   m_EditorClassIdentifier: 
-  m_ContentInfo:
-  - {fileID: 11400000, guid: 936c3ce0d48848c9a21aa3ebcf2c7e76, type: 2}
+  m_ContentInfo: []
   m_MainScene:
     m_Guid: 941ab5b491d5340d297e8c6fa237d213
   m_NavigateToContentScene:

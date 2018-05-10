@@ -16,10 +16,6 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.ru.json
     ResourcePath: SagoApp/Strings.ru
-  - Guid: 936c3ce0d48848c9a21aa3ebcf2c7e76
-    AssetBundleName: 
-    AssetPath: Assets/Content/Template/Resources/Template/ContentInfo.asset
-    ResourcePath: Template/ContentInfo
   - Guid: df357152395a941e3bcd56ac2f49a081
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoPhoto/Resources/LogoMaterial.mat
@@ -28,10 +24,6 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Platform/Resources/PlatformSettingsMultiplexer.prefab
     ResourcePath: PlatformSettingsMultiplexer
-  - Guid: 31c4dda246cea4cf78d5c79f50cbad3f
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/ErrorAdaptor.cs
-    ResourcePath: ErrorAdaptor
   - Guid: d75dbdd21bfc54a0fbf14d95e3836888
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/LoadingSpinnerNoText.prefab
@@ -56,38 +48,18 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.ja.json
     ResourcePath: SagoApp/Strings.ja
-  - Guid: 86168f4556a7c44d1a94f9462f1bcf45
+  - Guid: fefb22e45fdc84b69ade6e14f8fb3a15
     AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/IResourceReferenceAdaptor.cs
-    ResourcePath: IResourceReferenceAdaptor
-  - Guid: 77f4b185d0584ce8970dbf83672e5a12
-    AssetBundleName: template_resources
-    AssetPath: Assets/Content/Template/_Resources_/Resources.txt
-    ResourcePath: 
+    AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/QuitButton.prefab
+    ResourcePath: SagoApp/QuitButton
   - Guid: 35c4da26d1fd3413b9c55b5d8b6c4198
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/FramesPerSecond.ttf
     ResourcePath: SagoApp/FramesPerSecond
-  - Guid: caa0c68668b5847378bf90f9957046cb
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/ResourceReferenceLoaderRequest.cs
-    ResourcePath: ResourceReferenceLoaderRequest
   - Guid: fde7cd87248144d369abeb5aef694ecc
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/AnalyticsController.prefab
     ResourcePath: SagoApp/AnalyticsController
-  - Guid: ee39e5e7cce334d0387d53fff73e9726
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/AssetBundleAdaptor.cs
-    ResourcePath: AssetBundleAdaptor
-  - Guid: 5c924488bda76447bbddbdd659952ecc
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/ResourceReference.cs
-    ResourcePath: ResourceReference
-  - Guid: bc18b9c8da08d40d1aacb64ed5f2789e
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/ResourceReferenceLoader.cs
-    ResourcePath: ResourceReferenceLoader
   - Guid: 89ace9d82a2e6437ebcd16c9da10f317
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoPhoto/Resources/LogoMesh.asset
@@ -100,6 +72,10 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.asset
     ResourcePath: SagoApp/Strings
+  - Guid: 57ab7359a44944910a3ebd77b32d355b
+    AssetBundleName: 
+    AssetPath: Assets/Project/Resources/AssetBundleAdaptorMap.asset
+    ResourcePath: AssetBundleAdaptorMap
   - Guid: 57e5aa79178274de590f0e2bde7c277e
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoBiz/Resources/SagoBiz.prefab
@@ -108,22 +84,10 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.zh-Hans.json
     ResourcePath: SagoApp/Strings.zh-Hans
-  - Guid: aa3430d95f2d64912ba3f60c34180f81
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/AssetDatabaseAdaptor.cs
-    ResourcePath: AssetDatabaseAdaptor
   - Guid: b83dfc0a5ad994b9d9f343a791779993
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/LoadingSpinner.prefab
     ResourcePath: SagoApp/LoadingSpinner
-  - Guid: e191abba9ab5d4210bb715b18d63d138
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/IResourceReference.cs
-    ResourcePath: IResourceReference
-  - Guid: 097ad2ca2d5394c908a7ee91d5ef4517
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/ResourcesAdaptor.cs
-    ResourcePath: ResourcesAdaptor
   - Guid: 9100ef4bd4ec647358d3ff7028ef94e7
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoPhoto/Resources/Flash.mat
@@ -136,18 +100,10 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.fr.json
     ResourcePath: SagoApp/Strings.fr
-  - Guid: f4260c1cfca364bbeab19d453f9ac13f
-    AssetBundleName: 
-    AssetPath: Assets/Framework/SagoCore/Scripts/Resources/ResourceMap.cs
-    ResourcePath: ResourceMap
   - Guid: 25351e2c646b411d81195f8096fdac2a
     AssetBundleName: 
     AssetPath: Assets/Project/Resources/AssetBundleMap.asset
     ResourcePath: AssetBundleMap
-  - Guid: eac85d9ccdb84d04ae2533769f3b2a1a
-    AssetBundleName: 
-    AssetPath: Assets/Project/Resources/AssetBundleAdaptorMap.asset
-    ResourcePath: AssetBundleAdaptorMap
   - Guid: 53a7a12dcee841b0a872d5718b4c5c92
     AssetBundleName: 
     AssetPath: Assets/Project/Resources/ProjectInfo.asset
@@ -156,7 +112,15 @@ MonoBehaviour:
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoNavigation/Resources/SagoNavigation/FadeTransition.prefab
     ResourcePath: SagoNavigation/FadeTransition
+  - Guid: b1a079cdafa1f45f0abc64843a68527d
+    AssetBundleName: 
+    AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.pt-BR.json
+    ResourcePath: SagoApp/Strings.pt-BR
   - Guid: 932dbecdee3eb4272a018c8949bedc9d
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.zh-Hant.json
     ResourcePath: SagoApp/Strings.zh-Hant
+  - Guid: 4d4ac64e39d3e4b07941b35b51f6f318
+    AssetBundleName: 
+    AssetPath: Assets/Framework/SagoApp/Resources/SagoApp/Strings.es.json
+    ResourcePath: SagoApp/Strings.es

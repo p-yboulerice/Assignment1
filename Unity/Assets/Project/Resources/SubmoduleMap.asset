@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Name: SubmoduleMap
   m_EditorClassIdentifier: 
   m_Elements:
-  - SubmoduleName: Template
-    SubmodulePath: Assets/Content/Template
-    SubmoduleType: Template.ContentInfo
   - SubmoduleName: SagoApp
     SubmodulePath: Assets/Framework/SagoApp
     SubmoduleType: SagoApp.SubmoduleInfo
@@ -27,6 +24,9 @@ MonoBehaviour:
   - SubmoduleName: SagoCore
     SubmodulePath: Assets/Framework/SagoCore
     SubmoduleType: SagoCore.SubmoduleInfo
+  - SubmoduleName: SagoLayout
+    SubmodulePath: Assets/Framework/SagoLayout
+    SubmoduleType: SagoLayout.SubmoduleInfo
   - SubmoduleName: SagoPhoto
     SubmodulePath: Assets/Framework/SagoPhoto
     SubmoduleType: SagoPhoto.SubmoduleInfo

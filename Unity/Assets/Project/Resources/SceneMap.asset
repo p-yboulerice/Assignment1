@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: SceneMap
   m_EditorClassIdentifier: 
   m_Values:
-  - Guid: 9025731bf7804d18b75d757b1b01788d
-    AssetBundleName: template_scenes
-    AssetPath: Assets/Content/Template/_Scenes_/Main.unity
+  - Guid: 4cec572b910f746a5980b682ba6d90f2
+    AssetBundleName: 
+    AssetPath: Assets/Content/_Scenes_/Game.unity
   - Guid: cf0048ce6c3d342c98f48160888d9f90
     AssetBundleName: 
     AssetPath: Assets/Framework/SagoApp/Scenes/NavigateToContent.unity

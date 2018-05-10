@@ -317,8 +317,8 @@ MonoBehaviour:
   m_PassTouchesThrough: 0
   m_TouchPriority: 0
   NextScene:
-    m_Guid: 941ab5b491d5340d297e8c6fa237d213
-  NextSceneName: Title
+    m_Guid: 4cec572b910f746a5980b682ba6d90f2
+  NextSceneName: Game
   ShouldPreloadNextScene: 1
   m_CustomLoader: {fileID: 0}
   m_CustomTransition: {fileID: 100000, guid: e351f7bdd660e4972aca465aecbb0b37, type: 2}
