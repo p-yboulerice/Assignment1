@@ -17,21 +17,47 @@
 		[SerializeField]
 		private Camera Camera;
 
+		[SerializeField]
+		private Renderer Renderer;
+
+		[Space]
+        [Header("Animation")]
+        [SerializeField]
+		[Range(1, 20)]
+        private float respawnAnimationSpeed;
+		[SerializeField]
+		private AnimationCurve respawnAnimationCurve;
+
+		[Space]
+		[Header("Interaction")]
+		[SerializeField]
+        private float draggingSpeed;
+
+        // ---
+
         // Defaults
 		private PhysicsMaterial2D defaultPhysicsMaterial;
-		private Vector2 defaultPosition;
-
-		[SerializeField]
-		private float draggingSpeed;
+		private Vector2 defaultPosition;      
 
 		private Touch Touch;
 
 		// Components
 		private Rigidbody2D rb2d;
 
+        // States
+        private enum ObjectState
+		{
+			Active,
+            Respawning,
+            Inactive
+		}
+
+		private ObjectState state;
+
 		#endregion
 
-        
+        // ---
+
 		// Unity Defaults
 
 		private void Awake() {
@@ -51,7 +77,10 @@
 		}
 
 		private void FixedUpdate() {
-			DefaultDragging();
+			if (state == ObjectState.Active){
+				DefaultDragging();
+                CheckBounds();
+			}         
 		}
 
 
@@ -81,13 +110,39 @@
 
         private void CheckBounds()
 		{
+			if (!this.Renderer.isVisible)
+			{
+				state = ObjectState.Respawning;
+				StartCoroutine(Respawning());
+			}
 		}
 
-		private void Respawn()
+		private IEnumerator Respawning()
 		{
+			float timeElapsed = 0;
+
+            // ---
+
+			transform.localScale = Vector3.zero;
+
+			yield return new WaitForSeconds(1);
+
+            // Reset velocity
+			rb2d.isKinematic = true;
 			rb2d.velocity = Vector2.zero;
 			rb2d.angularVelocity = 0;
 			transform.position = defaultPosition;
+
+			while(timeElapsed <= 1)
+			{
+				timeElapsed += Time.deltaTime * respawnAnimationSpeed;
+
+				transform.localScale = Vector3.Lerp(Vector3.zero, Vector3.one, respawnAnimationCurve.Evaluate(timeElapsed));
+				yield return 0;
+			}
+
+			rb2d.isKinematic = false;
+			state = ObjectState.Active;
 		}
 
 
